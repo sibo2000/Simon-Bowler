@@ -60,6 +60,26 @@ strong {
   	background-size: cover;
 }
 
+.more-info {
+	padding: 8rem 0 8rem 0;
+	border-top: solid 1px #fff;
+	border-bottom: solid 1px #fff;
+}
+
+footer {
+	padding-bottom: 2rem;
+}
+
+footer .social {
+	padding: 1rem 0;
+}
+
+footer small {
+	display: block;
+	font-size: 12px;
+	line-height: 1.6;
+}
+
 .splash {	
 	position: relative;
   	top: 28%;
@@ -112,4 +132,10 @@ img.gwr-logo {
 
 .client-block {
 	margin-bottom: 3.75rem;
+}
+.client-block h3 {
+	margin-top: 0;
+}
+.client-block h3 a {
+	color: #212121;
 }
