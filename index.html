@@ -10,35 +10,119 @@
 	<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'> -->
 </head>
 <body>
-.	<div class="full-screen animated fadeIn text-center">
+	<nav>
+		<ul class="inline-list">
+			<li><a href="#about">About</a></li>
+			<li><a href="#clients">Clients</a></li>			
+			<li><a href="#hireme">Hire me</a></li>
+		</ul>
+	</nav>
+	<div class="full-screen animated fadeIn text-center">
 		<div class="splash small-12 columns">
 			<img class="circular animated" src="images/stickies-face.jpg" alt="" />
 			<hgroup>
-				<h1>Simon Bowler | Front End Developer</h1>
+				<h1><a href="/" title="Simon Bowler, Front End Developer">Simon Bowler | Front End Developer</a></h1>
 				<h2>London | UK</h2>
 			</hgroup>			
 			<div class="worked-for">
 				<p>Previously worked for</p>
-				<a href="http://www.guinnessworldrecords.com"><img class="gwr-logo" src="images/gwr-logo.png" alt="Guinness World Records logo" title="Guinness World Records"></a>
-				<a href="http://www.mrandmrssmith.com"><img src="images/mms-logo.png" alt="Mr &amp; Mrs Smith logo" title="Mr &amp; Mrs Smith"></a>
+				<a href="#guinnessworldrecords"><img class="gwr-logo" src="images/gwr-logo.png" alt="Guinness World Records logo" title="Guinness World Records"></a>
+				<a href="#mrandmrssmith"><img src="images/mms-logo.png" alt="Mr &amp; Mrs Smith logo" title="Mr &amp; Mrs Smith"></a>
 			</div>
 		</div>
 	</div>
-	<div class="row pad-t">		
-		<div class="small-8 columns">
-			<h3>About me</h3>
-			<p>I am a Front End Web Developer, specailising in responsive, mobile first websites.</p>
-			<p>I create website that deliver on  user wireframing and prototyping to plans websites before I write production ready HTML5 and CSS</p>
+	<div class="row pad-t" id="about">		
+		<div class="small-12 medium-7 large-8 columns">
+			<h2>About me</h2>
+			<p>Hi. I'm Simon, a London based Front End Web Developer, specailising in creating <strong>responsive, mobile first websites</strong>.</p>
+			<p>I have over 6 years experience in Front End Development. My in-house and agency experience has enabled me to work on a large varierty of <a href="#" class="highlight-platforms">platforms</a>, in many different <a href="#" class="highlight-platforms">industries</a>.</p>
+			<p>I am a strong beliver that using content planning session, <a href="http://zurb.com/article/596/why-wireframe" title="Why wireframing &amp; prototyping is important in web design">wireframing &amp; prototyping</a> produces the best websites for the business and end user.</p>			
 		</div>
-		<div class="small-4 columns">
-			<h3 class="subheader">Technical</h3>
-			<p>I have worked on sites in <a href="">Magento</a>, <a href="">Wordpress</a>, <a href="">Symfony</a>, <a href="">Umbraco</a> and custom PHP solutions.</p>
+		<div class="small-12 medium-5 large-4 columns">
+			<h2 class="subheader">Technical</h2>			
 			<p>I like to use <a href="">Foundation</a>, <a href="">SASS</a>, <a href="">Gulp</a> and <a href="">Bower</a> to craft my websites.</p>
+			<p>Platforms worked on: <a href="">Magento</a>, <a href="">Wordpress</a>, <a href="">Symfony</a>, <a href="">Umbraco</a> and custom PHP solutions.</p>
+			<p>Industries worked in: E-Commerce, Travel, Publishing, Political News.
+		</div>
+	</div>
+	<div class="row pad-t" id="clients">		
+		<div class="small-12 columns">
+			<h2>Clients</h2>
+		</div>
+	</div>
+
+	<div class="row client-block" id="logicspot">
+		<div class="small-12 large-4 columns">
+			<div class="row">
+				<div class="small-2 large-4 columns">
+					<a href="http://www.logicspot.com/" class="client-logo left">
+						<img src="./images/logicspot-logo.png" alt="LogicSpot Logo">
+					</a>		
+				</div>
+				<div class="small-10 large-8 columns">
+					<h3>LogicSpot</h3>		
+					<p>March 2014 - June 2015</p>	
+				</div>
+			</div>				
+		</div>
+		<div class="small-10 small-push-2 large-6 large-push-0 end columns">
+			<p>Lead Front End Developer for an E-Commerce agency in Richmond, South West London.</p>
+			<p>I worked on a varitey of E-Commerce websites, my primary role was to create mobile first, responsive Magento themes.</p>
+			<p>Clients included high-end fashion brand, <a href="">MIH jeans</a> and world renowned nail products brand <a href="">OPI</a>.</p>
+		</div>
+	</div>
+
+
+	<div class="row client-block" id="mrandmrssmith">
+		<div class="small-12 large-4 columns">
+			<div class="row">
+				<div class="small-2 large-4 columns">
+					<a href="http://www.mrandmrssmith.com" class="client-logo left">
+						<img src="./images/mms-logo.png" alt="Mr &amp; Mrs Smith Logo">
+					</a>		
+				</div>
+				<div class="small-10 large-8 columns">
+					<h3>Mr &amp; Mrs Smith</h3>		
+					<p>March 2013 - April 2014</p>
+				</div>
+			</div>				
+		</div>
+		<div class="small-10 small-push-2 large-6 large-push-0 end columns">
+			<p>Front End Developer for a boutique hotel company, Mr &amp; Mrs Smith.</p> 
+			<p>I developed a <strong>modular Sass architecture</strong> that allows code sharing and theming across the three main websites and various 3rd parties including British Airways, Conde Nast &amp; American Express.</p>
+		</div>
+	</div>
+
+
+	<div class="row client-block" id="guinnessworldrecords">
+		<div class="small-12 large-4 columns">
+			<div class="row">
+				<div class="small-2 large-4 columns">
+					<a href="http://www.guinnessworldrecords.com/" class="client-logo left">
+						<img src="./images/gwr-logo.png" alt="Guinness World Records Logo">
+					</a>	
+				</div>
+				<div class="small-10 large-8 columns">
+					<h3>Guinness World Records</h3>		
+					<p>June 2011 - February 2013</p>
+				</div>
+			</div>				
+		</div>
+		<div class="small-10 small-push-2 large-6 large-push-0 end columns">
+			<p>Front End Developer for an global world record authority, Guinness World records.</p>
+			<p>Working as the sole Front End Developer on the main website, <a href="http://www.guinnessworldrecords.com/">www.guinnessworldrecords.com</a>. The main site ran on .Net (Umbraco). Other responsibiltys included working on a social video sharing platform using Ruby on Rails.</p>
+			<p>I also met the world tallest man, <a href="http://www.guinnessworldrecords.com/world-records/tallest-man-living">Sultan Kosen</a>.</p>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="small-12 columns text-center">
+			<span class="sub">For more information about my career visit <a href="http://uk.linkedin.com/in/simonbowlerdeveloper">LinkedIn</a>.</span>
 		</div>
 	</div>
 	<div class="row text-center pad-t">
 		<div class="small-3 small-centered column">
-			<a href="" class="button expand">Hire me</a>
+			<a href="mailto:simon@simonbowler.co.uk" class="button expand">Hire me</a>
 		</div>
 	</div>
 	<div class="row">
