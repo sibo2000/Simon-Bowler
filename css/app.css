@@ -11,6 +11,10 @@ body {
 	color: #212121;
 }
 
+.pad-bottom {
+	padding-bottom: 4rem;
+}
+
 a {
 	color: #FF6014;
 }
@@ -24,10 +28,6 @@ h2.subheader {
 	background: #FF6014;
 }
 
-/* helper */
-.pad-t {
-	margin-top: 100px;
-}
 
 strong {
 	font-weight: bold!important;
@@ -51,13 +51,8 @@ strong {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f4ed', endColorstr='#fdfdfd',GradientType=0 ); /* IE6-9 */
 }
 
-.full-screen {	
-	margin-top: -.5rem;	/* what ? */
-	height: 80vh;
-	width: 100vw;
-	background: url(../images/bg2.jpg);
-  	-webkit-background-size: cover;
-  	background-size: cover;
+.row.full-screen {
+	max-width: 100%;
 }
 
 .more-info {
@@ -81,8 +76,11 @@ footer small {
 }
 
 .splash {	
+	padding: 8rem 0 6rem;
 	position: relative;
-  	top: 28%;
+  	background: url(../images/bg2.jpg);
+  	-webkit-background-size: cover;
+  	background-size: cover;
 }
 .splash h1,
 .splash h1 a,
