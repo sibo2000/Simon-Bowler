@@ -1,0 +1,35 @@
+.masthead {
+	background-image: url("/images/couple-moving-house.jpg");
+	background-size: cover;	
+	position: relative;
+	padding-top: 3rem;
+	> .row:before {
+		padding-top: 3rem;
+		background: rgba(0, 0, 0, 0.5);
+		position: absolute;
+		display: block;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		
+	}
+	h1 {
+		color: $white;
+		padding-top: 2rem;
+		padding-bottom: .5rem;
+		font-weight: $font-weight-normal;
+	}
+}
+
+@media #{$medium-up} { 
+	.masthead h1 {
+		padding: 4rem;
+	}
+}
+
+@media #{$large-up} { 
+	.masthead h1 {
+		padding: 6rem;
+	}
+}

@@ -1,0 +1,139 @@
+
+/* settings */
+body {
+	background-color: #f9f4ed;
+}
+
+* {
+	font-family: 'Roboto', sans-serif!important;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-weight: 300!important;
+	color: #212121;
+}
+
+.pad-bottom {
+	padding-bottom: 4rem;
+}
+
+a {
+	color: #FF6014;
+}
+
+h2,
+h2.subheader {
+	margin-bottom: 1.75rem;
+}
+
+.button {
+	background: #FF6014;
+}
+
+
+strong {
+	font-weight: bold!important;
+}
+
+.sub {
+	opacity: 0.75;
+}
+.sub:hover {
+	opacity: 1;
+}
+
+.gradient {
+	background: #f9f4ed; /* Old browsers */
+	background: -moz-linear-gradient(top, #f9f4ed 0%, #fdfdfd 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f4ed), color-stop(100%,#fdfdfd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #f9f4ed 0%,#fdfdfd 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #f9f4ed 0%,#fdfdfd 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #f9f4ed 0%,#fdfdfd 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #f9f4ed 0%,#fdfdfd 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f4ed', endColorstr='#fdfdfd',GradientType=0 ); /* IE6-9 */
+}
+
+.row.full-screen {
+	max-width: 100%;
+}
+
+.more-info {
+	padding: 8rem 0 8rem 0;
+	border-top: solid 1px #fff;
+	border-bottom: solid 1px #fff;
+}
+
+footer {
+	padding-bottom: 2rem;
+}
+
+footer .social {
+	padding: 1rem 0;
+}
+
+footer small {
+	display: block;
+	font-size: 12px;
+	line-height: 1.6;
+}
+
+.splash {	
+	padding: 8rem 0 6rem;
+	position: relative;
+  	background: url(../images/bg2.jpg);
+  	-webkit-background-size: cover;
+  	background-size: cover;
+}
+.splash h1,
+.splash h1 a,
+.splash h2,
+.splash p {
+	color: #fff;
+}
+.splash h2 {
+	opacity: 0.5;
+}
+
+.circular {
+	border-radius: 50% 50% 50% 50%;
+}
+
+nav {
+	position: fixed;
+	top: 1.5rem;
+	right: 2rem;
+	display: block;
+	z-index: 999;
+}
+
+nav a {
+	color: #fff;
+	opacity: 0.75;
+	transition: opacity 0.5s ease;
+}
+
+nav a:hover {
+	color: #fff;
+	opacity: 1;
+}
+
+/* modules */
+.worked-for {
+	margin-top: 64px;
+}
+.worked-for img {
+	width: 124px;
+	margin-left: 16px;
+	margin-right: 16px;
+}
+img.gwr-logo {
+	width: 80px;
+}
+
+.client-block {
+	margin-bottom: 3.75rem;
+}
+.client-block h3 {
+	margin-top: 0;
+}
+.client-block h3 a {
+	color: #212121;
+}

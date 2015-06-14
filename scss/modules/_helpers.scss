@@ -1,0 +1,29 @@
+
+// Text and fonts
+.strong {
+	font-weight: $font-weight-bold;
+}
+
+.light {
+	font-weight: $font-weight-normal;
+}
+
+.medium {
+	font-weight: $font-weight-medium;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.brand-text {
+	color: $rbuk-orange;
+}
+
+.punched-text {
+	color: $rbuk-grey-text;
+}
