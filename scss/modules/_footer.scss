@@ -1,11 +1,12 @@
 footer {
 	padding-bottom: 2rem;
+	.social {
+		padding: 1rem 0;
+	}
+	i {
+		font-size: 1.5rem;
+	}
 }
-
-footer .social {
-	padding: 1rem 0;
-}
-
 footer small {
 	display: block;
 	font-size: 12px;
