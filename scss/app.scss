@@ -1,7 +1,17 @@
 @import "settings/settings-app",
 		"settings/settings-foundation";
 
-@import "bower_components/foundation/scss/foundation.scss";
+@import "bower_components/foundation/scss/foundation/components/grid",
+		"bower_components/foundation/scss/foundation/components/buttons",
+		"bower_components/foundation/scss/foundation/components/clearing",
+		"bower_components/foundation/scss/foundation/components/forms",
+		"bower_components/foundation/scss/foundation/components/inline-lists",
+		"bower_components/foundation/scss/foundation/components/keystrokes",
+		"bower_components/foundation/scss/foundation/components/labels",
+		"bower_components/foundation/scss/foundation/components/tables",
+		"bower_components/foundation/scss/foundation/components/type",
+		"bower_components/foundation/scss/foundation/components/visibility";
+
 
 @import "modules/helpers",
 		"modules/app-global",
