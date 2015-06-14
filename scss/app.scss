@@ -1,4 +1,5 @@
-@import "settings/settings";
+@import "settings/settings-app",
+		"settings/settings-foundation";
 
 @import "bower_components/foundation/scss/foundation.scss";
 
@@ -6,5 +7,9 @@
 		"modules/app-global",
 		"modules/footer",
 		"modules/masthead",
+		"modules/nav",
 		"modules/buttons",
-		"modules/icons";
+		"modules/icons",
+		"modules/more-info",
+		"modules/worked-for",
+		"modules/client-block";

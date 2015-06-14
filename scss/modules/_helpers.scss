@@ -1,17 +1,5 @@
 
 // Text and fonts
-.strong {
-	font-weight: $font-weight-bold;
-}
-
-.light {
-	font-weight: $font-weight-normal;
-}
-
-.medium {
-	font-weight: $font-weight-medium;
-}
-
 .underline {
 	text-decoration: underline;
 }
@@ -20,10 +8,14 @@
 	text-transform: uppercase;
 }
 
-.brand-text {
-	color: $rbuk-orange;
+.pad-bottom {
+	padding-bottom: 4rem;
 }
 
-.punched-text {
-	color: $rbuk-grey-text;
+.row.full-screen {
+	max-width: 100%;
+}
+
+.circular {
+	border-radius: 50% 50% 50% 50%;
 }

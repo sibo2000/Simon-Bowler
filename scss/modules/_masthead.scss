@@ -1,35 +1,16 @@
-.masthead {
-	background-image: url("/images/couple-moving-house.jpg");
-	background-size: cover;	
+.masthead {	
+	padding: 8rem 0 6rem;
 	position: relative;
-	padding-top: 3rem;
-	> .row:before {
-		padding-top: 3rem;
-		background: rgba(0, 0, 0, 0.5);
-		position: absolute;
-		display: block;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		
-	}
-	h1 {
-		color: $white;
-		padding-top: 2rem;
-		padding-bottom: .5rem;
-		font-weight: $font-weight-normal;
-	}
+  	background: url(../images/bg2.jpg);
+  	-webkit-background-size: cover;
+  	background-size: cover;
 }
-
-@media #{$medium-up} { 
-	.masthead h1 {
-		padding: 4rem;
-	}
+.masthead h1,
+.masthead h1 a,
+.masthead h2,
+.masthead p {
+	color: #fff;
 }
-
-@media #{$large-up} { 
-	.masthead h1 {
-		padding: 6rem;
-	}
+.masthead h2 {
+	opacity: 0.5;
 }
