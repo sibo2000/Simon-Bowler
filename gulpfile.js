@@ -49,7 +49,6 @@ gulp.task('sass', function (){
     // Also pull the include path from the paths object
     .pipe(sass({
         outputStyle: 'compressed',
-        sourceComments: 'map',
         includePaths : [paths.styles.src]
     }))
     // If there is an error, don't stop compiling but use the custom displayError function
