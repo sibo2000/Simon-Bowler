@@ -18,13 +18,4 @@ nav {
 			opacity: 1;
 		}
 	}
-	&.dark {
-		background: darken($sb-offwhite, 2.5%);
-		a {
-			color: #000;
-		}
-		a:focus {
-			color: $sb-orange;
-		}
-	}
 }

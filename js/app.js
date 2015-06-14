@@ -14,16 +14,16 @@ $(document).ready(function() {
 	}
 });
 
-	var navFromTop = $('.full-screen').height() - $('nav').height();
+var navFromTop = $('.full-screen').height() - $('nav').height();
 
-	console.log(navFromTop);
+console.log(navFromTop);
 
-	$(window).scroll(function() {
-		if($(this).scrollTop() > navFromTop){
-			$('nav').addClass('dark');
-		}else{
-			$('nav').removeClass('dark');
-		}
-	});
+$(window).scroll(function() {
+	if($(this).scrollTop() > navFromTop){
+		$('nav').addClass('dark');
+	}else{
+		$('nav').removeClass('dark');
+	}
+});
 
 });
