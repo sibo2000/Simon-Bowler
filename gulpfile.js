@@ -75,8 +75,8 @@ gulp.task('browser-sync', function() {
 gulp.task('scripts', function(){
     gulp.src([        
         './bower_components/jquery/dist/jquery.js',
-        './bower_components/foundation/js/foundation.js',
-        './bower_components/slick.js/slick/slick.js'
+        './bower_components/foundation/js/foundation.js',        
+        './js/app.js'
     ])
     .pipe(concat('app.min.js'))
     .pipe(gulp.dest('./js'));
