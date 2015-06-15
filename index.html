@@ -138,32 +138,5 @@
 	</footer>
 	<!-- JS -->	
 	<script src="js/app.min.js"></script>
-	<script>
-
-
-		var navFromTop = $('.full-screen').height() - $('nav').height();
-
-		var xy = $('.full-screen').height() + $('nav').height() + 1;
-
-
-		console.log(navFromTop);
-
-		$(window).scroll(function() {
-			if($(this).scrollTop() > navFromTop){
-				$('nav').addClass('dark');
-
-				$('#masthead').css({'position':'fixed', 'margin-top': -navFromTop});
-				$('.full-screen').css({'height':xy});
-				// $('#masthead').css({'position':'absolute'});
-			}else{
-				$('nav').removeClass('dark');
-				$('.full-screen').css({'height':''});
-				$('#masthead').css({'position':'relative', 'margin-top': 0});
-				// $('#masthead').css({'position':'relative');
-			}
-		});
-
-
-	</script>
 </body>
 </html>
