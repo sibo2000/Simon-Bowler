@@ -1,10 +1,21 @@
 
 .client-block {
 	margin-bottom: 3.75rem;
+	h3 {
+		margin-top: 0;
+		a {
+			color: #212121;
+		}
+	}
 }
-.client-block h3 {
-	margin-top: 0;
+
+.client-logo {
+	img {
+		height: 78px; 
+	}
+	&.mms-logo img  {
+		height: auto;
+		width: 100px;
+	}
 }
-.client-block h3 a {
-	color: #212121;
-}
+
